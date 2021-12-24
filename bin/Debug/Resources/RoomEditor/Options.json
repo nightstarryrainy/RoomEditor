@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "displayShowGrids": false,
+  "historyMaxRelevantEntries": 15,
+  "windows": [
+    {
+      "name": "frmLayers",
+      "location": "559, 746",
+      "size": "400, 197"
+    },
+    {
+      "name": "frmMarkerProperties",
+      "location": "722, 169",
+      "size": "250, 280"
+    },
+    {
+      "name": "frmRoomList",
+      "location": "550, 185",
+      "size": "634, 465"
+    },
+    {
+      "name": "frmHistory",
+      "location": "203, 316",
+      "size": "250, 280"
+    },
+    {
+      "name": "frmViewportPreview",
+      "location": "1179, 528",
+      "size": "400, 197"
+    },
+    {
+      "name": "frmTools",
+      "location": "1119, 95",
+      "size": "548, 793"
+    },
+    {
+      "name": "frmNewRoom",
+      "location": "509, 296",
+      "size": "259, 324"
+    },
+    {
+      "name": "frmMain",
+      "location": "199, 205",
+      "size": "800, 557"
+    }
+  ],
+  "toolsSortMarkersAlphabetically": true
+}

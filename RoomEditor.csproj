@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: E:\ModTools\RoomEditor.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2EBAC323-4BC6-4AAB-A941-81372C297E19}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>RoomEditor</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>RoomEditor</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CDBTool">
+      <HintPath>lib\CDBTool.exe</HintPath>
+    </Reference>
+    <Reference Include="Common">
+      <HintPath>lib\Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Action.cs" />
+    <Compile Include="ClipboardData.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="frmControls.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLayers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKeyBindings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMarkerProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRoomList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTools.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewportPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="History.cs" />
+    <Compile Include="HistoryChangeMarkerPropertiesEntry`1.cs" />
+    <Compile Include="HistoryEntry.cs" />
+    <Compile Include="HistoryMoveMarkerEntry.cs" />
+    <Compile Include="HistoryPlaceBlockEntry.cs" />
+    <Compile Include="HistoryPlaceBlockRectEntry.cs" />
+    <Compile Include="HistoryPlaceBlocksEntry.cs" />
+    <Compile Include="HistoryPlaceMarkerEntry.cs" />
+    <Compile Include="HistoryRemoveMarkersEntry.cs" />
+    <Compile Include="HistoryResizeEntry.cs" />
+    <Compile Include="HotKey.cs" />
+    <Compile Include="InterpolablePictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KeyBinding.cs" />
+    <Compile Include="RoomLayer.cs" />
+    <Compile Include="Layer.cs" />
+    <Compile Include="Layers.cs" />
+    <Compile Include="Marker.cs" />
+    <Compile Include="IconInfo.cs" />
+    <Compile Include="MarkerType.cs" />
+    <Compile Include="MarkerInfo.cs" />
+    <Compile Include="MarkerLayer.cs" />
+    <Compile Include="Selection.cs" />
+    <Compile Include="Options.cs" />
+    <Compile Include="PixelRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="frmResize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoomData.cs" />
+    <Compile Include="RoomRenderer.cs" />
+    <Compile Include="Separators.cs" />
+    <Compile Include="SeparatorInfo.cs" />
+    <Compile Include="TileInfo.cs" />
+    <Compile Include="ToolCursor.cs" />
+    <Compile Include="Tool.cs" />
+    <Compile Include="Tools.cs" />
+    <Compile Include="Viewport.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="Properties\Settings.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmControls.resx" />
+    <EmbeddedResource Include="frmHistory.resx" />
+    <EmbeddedResource Include="frmKeyBindings.resx" />
+    <EmbeddedResource Include="frmLayers.resx" />
+    <EmbeddedResource Include="frmMain.resx" />
+    <EmbeddedResource Include="frmMarkerProperties.resx" />
+    <EmbeddedResource Include="frmNewRoom.resx" />
+    <EmbeddedResource Include="frmOptions.resx" />
+    <EmbeddedResource Include="frmResize.resx" />
+    <EmbeddedResource Include="frmRoomList.resx" />
+    <EmbeddedResource Include="frmTools.resx" />
+    <EmbeddedResource Include="frmViewportPreview.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="ToolForm.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
