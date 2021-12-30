@@ -369,7 +369,7 @@ namespace RoomEditor
         else if (str == "level")
           this.PopulateCombo(this.cboLevel, _sheetObj, "id");
         else if (str == "lightConf")
-          this.PopulateCombo(this.cboLight, _sheetObj, "name");
+          this.PopulateCombo(this.cboLight, _sheetObj, "id");
         else if (str == "mob")
           this.PopulateCombo(this.cboMob, _sheetObj, "id");
       }

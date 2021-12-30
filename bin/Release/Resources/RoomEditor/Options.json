@@ -9,6 +9,16 @@
       "size": "400, 197"
     },
     {
+      "name": "frmMarkerProperties",
+      "location": "722, 169",
+      "size": "250, 280"
+    },
+    {
+      "name": "frmRoomList",
+      "location": "550, 185",
+      "size": "634, 465"
+    },
+    {
       "name": "frmHistory",
       "location": "203, 316",
       "size": "250, 280"
@@ -19,28 +29,18 @@
       "size": "400, 197"
     },
     {
+      "name": "frmTools",
+      "location": "1119, 95",
+      "size": "548, 793"
+    },
+    {
       "name": "frmNewRoom",
       "location": "509, 296",
       "size": "259, 324"
     },
     {
-      "name": "frmTools",
-      "location": "1336, 157",
-      "size": "548, 793"
-    },
-    {
-      "name": "frmRoomList",
-      "location": "375, 240",
-      "size": "634, 465"
-    },
-    {
-      "name": "frmMarkerProperties",
-      "location": "833, 191",
-      "size": "250, 280"
-    },
-    {
       "name": "frmMain",
-      "location": "348, 200",
+      "location": "199, 205",
       "size": "800, 557"
     }
   ],
